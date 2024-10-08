@@ -23,6 +23,4 @@ func main() {
 	go scheduler.ScheduleWorker()
 
 	select {}
-
-	// select {}
 }
